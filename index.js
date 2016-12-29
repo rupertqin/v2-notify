@@ -32,7 +32,7 @@ class Watch {
 
             if (this.apparentTimes !== undefined && times > this.apparentTimes) {
                 clearInterval(this.loop)
-                this.alarm
+                this.alarm()
             } else {
                 this.apparentTimes = times
             }
