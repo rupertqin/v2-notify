@@ -29,7 +29,8 @@ class Watch {
                 }
                 return times
             }, 0)
-            if (this.apparentTimes !== undefined && this.apparentTimes > times) {
+
+            if (this.apparentTimes !== undefined && times > this.apparentTimes) {
                 clearInterval(this.loop)
                 this.alarm
             } else {
