@@ -1,0 +1,19 @@
+{
+  "name": "v2-notify",
+  "version": "0.0.1",
+  "description": "v2ex nofify new message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "v2ex",
+    "notify"
+  ],
+  "author": "Rupertqin",
+  "license": "MIT",
+  "dependencies": {
+    "node-notifier": "^4.6.1",
+    "request": "^2.79.0"
+  }
+}
