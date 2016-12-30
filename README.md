@@ -1,5 +1,6 @@
-## set up a notify for a topic of [V2ex](https://www.v2ex.com)
+## set up a notify for a topic of [V2ex](https://www.v2ex.com), **both system alarms and sounds**
 
+![alarm](https://github.com/rupertqin/v2-notify/blob/master/alarm.png)
 
 ## install 
 
