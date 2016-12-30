@@ -103,5 +103,5 @@ class Watch {
 // ** id{Number} or url{String}
 // ** mode{String}: 'normal' | 'author'
 // ** message{String}
-const watch = new Watch(process.argv[2], process.argv[3], process.argv[4])
+const watch = new Watch(...process.argv.slice(2))
 watch.start()
