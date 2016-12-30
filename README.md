@@ -7,7 +7,7 @@
 
 ## Usage
 
-    node index.js {url/topic_id} {normal/author}
+    node index.js {url/topic_id} {normal/author} --harmony_async_await
 
 #### example
 
